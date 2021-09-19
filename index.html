@@ -8,29 +8,26 @@
 <link href="inicioStyle.css"
       rel="stylesheet" type="text/css">
 <body>
-    <form>
+    <div class="body"></div>
+    <div class="grad"></div>
+    <div class="header">
         <div>Proyecto<span> FS</span></div>
-       
-    <label for="depto">Departamento</label>
-   
-<select name="OS">
-   <option value="1">Soporte Tecnico</option> 
-   <option value="2">Comercios</option> 
-   <option value="3">Autorizaciones</option>
-   <option value="10">Gestión</option> 
-   <option value="11">Jurídico</option> 
-   <option value="12">Administrador</option> 
-</select>
-       
-        <label for="name">usuario</label>
-        <input class="controls" type="text" id="name" name="name" required>
-        <label for="password">contraseña</label>
-        <input class="controls"type="text" id="password" password="password" required>
-        
-        <button >
-            aceptar
-        </button>
-    </form>
+    </div>
+    <br>
+    <div class="login">
 
+    <select name="OS" type="area">
+        <option value="1">Soporte Tecnico</option> 
+        <option value="2">Comercios</option> 
+        <option value="3">Autorizaciones</option>
+        <option value="10">Gestión</option> 
+        <option value="11">Jurídico</option> 
+        <option value="12">Administrador</option> 
+    </select>
+
+        <input type="text" placeholder="Nombre" name="user"><br>
+        <input type="password" placeholder="Contraseña" name="Contraseña"><br>
+        <input type="button" value="Aceptar">
+    </div>
 </body>
 </html>
