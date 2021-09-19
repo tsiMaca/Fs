@@ -42,7 +42,7 @@ label{
     
 }
 
-.form div {
+.body form div {
     float: left;
     color: #fff;
     font-family: 'Exo', sans-serif;
@@ -50,6 +50,6 @@ label{
     font-weight: 200;
 }
 
-.form div span {
+.body form div span {
     color: #5379fa;
 }
